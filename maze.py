@@ -2,6 +2,8 @@ from point import Point
 import random
 
 
+# Une classe permettant de générer un labyrinthe de taille définie et de le résoudre
+
 class Maze:
     directions = [('W', (-1, 0)),
                   ('E', (1, 0)),

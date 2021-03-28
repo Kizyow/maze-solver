@@ -1,6 +1,8 @@
 import pygame
 
 
+# Une classe permettant de créer un bouton graphiquement
+
 class Button:
 
     def __init__(self, color, x, y, width, height, text):
@@ -13,7 +15,7 @@ class Button:
 
     def render(self, surface, outline=None):
         if outline:
-            pygame.draw.rect(surface, outline, (self.x-2, self.y-2, self.width+4, self.height+4), 0)
+            pygame.draw.rect(surface, outline, (self.x - 2, self.y - 2, self.width + 4, self.height + 4), 0)
 
         pygame.draw.rect(surface, self.color, (self.x, self.y, self.width, self.height), 0)
         font = pygame.font.SysFont('arial', 36)

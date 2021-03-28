@@ -1,3 +1,5 @@
+# Une classe représentant un point dans le labyrinthe
+
 class Point:
     wall_pairs = {'N': 'S',
                   'S': 'N',

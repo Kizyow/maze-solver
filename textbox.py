@@ -1,6 +1,9 @@
 import pygame
 
 
+# Une classe permettant de créer une entrée de texte
+
+
 class TextBox:
 
     def __init__(self, x, y, width, height, text):
